@@ -30,8 +30,8 @@ const FeaturedPosts = () => {
 
   useEffect(() => {
     getFeaturedPosts().then((result) => {
-      //setFeaturedPosts(result);
-      //setDataLoaded(true);
+      setFeaturedPosts(result);
+      setDataLoaded(true);
     });
   }, []);
 
